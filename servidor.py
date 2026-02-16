@@ -122,11 +122,11 @@ while ejecutando:
                         except:
                             # Si el envío falla , limpiarlo:
                             try:
-                                conexiones_activas.remove(socket_destino)
+                                conexiones_activas.remove(socket_destino) 
                             except ValueError:
                                 pass
                             try:
-                                direcciones_clientes.pop(socket_destino, None)
+                                direcciones_clientes.pop(socket_destino, None) 
                             except:
                                 pass
                             try:
