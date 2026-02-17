@@ -28,11 +28,6 @@ direcciones_clientes = {}
 # HILO: escuchar comandos desde la consola
 # ----------------------------
 def escuchar_consola():
-    """Hilo que permite introducir comandos desde la consola local.
-
-    Actualmente soporta el comando "salir" para detener el servidor de forma ordenada.
-    Este hilo evita bloquear el bucle principal y permite cerrar el servidor desde la terminal.
-    """
     global ejecutando
     while ejecutando:
         comando = input()

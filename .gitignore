@@ -1,0 +1,8 @@
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+
+# Ignorar scripts específicos
+cliente.py
+servidorlivecoding.py
+
